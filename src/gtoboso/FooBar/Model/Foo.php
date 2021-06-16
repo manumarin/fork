@@ -23,7 +23,7 @@ class Foo extends Bar implements FooInterface
         $result = 0;
 
         if (true === $forceSum) {
-            $result = $param1 + $param2;
+            $result = $param1 + $param2+10;
         }
 
         return $result;
